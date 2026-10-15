@@ -65,6 +65,7 @@ S'ha utilitzat la següent comanda:
 ```bash
 unshadow passwd shadow > passwords-quico
 ```
+
 ![](/media/7.png)
 
 Ara hem de descomprimir un diccionari de contresenyes de kali el rockyou.
@@ -90,19 +91,15 @@ Primer s'ha executat el mode bàsic.
 
 Posteriorment s'ha realitzat un atac de diccionari utilitzant RockYou.
 
-Captura del procés:
-
 ![](/media/10.png)
 
 ---
 
 ## 5.3 Atac de força bruta
 
-Finalment s'ha executat un atac de força bruta limitat a nombres de 4 a 8 dígits.
+Amb Aquest atac l'hem pogut fer tot i que la ultima contrasenya que faltava de l'usuari scarlet no l'hem trobat degut a que l'atac de força brtua es lent i mes si estem en una mv aixi que aquest a sigut el problma pero l'atac l'hem pogut fer.
 
-Captura del procés:
-
-![](/media/11.png)
+![](/media/1.png)
 
 ---
 
@@ -140,7 +137,6 @@ Contasenya: love2006
 
 # Usuari: scarlet
 
-Contasenya: a
+Contasenya: no trobada
 
-![](/media/17.png)
 
